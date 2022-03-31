@@ -71,22 +71,23 @@ nav ul li a:active{
     height: 300px;
     box-sizing: border-box;
 }
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+.fb-timeline{
+    float: right;
+    width: 33.33%;
+    height: 600px;
+    padding: 0;
     box-sizing: border-box;
-  }
-section{
+}
+/* .vid-div{
     position: absolute;
-    left: 10px;
+    left: 5%;
+    top: 50%;
     width: 37%;
     height: 30%;
     margin: 40px;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 /* Consistent footer used throughout */
 footer{
     position: fixed;
@@ -101,7 +102,7 @@ footer{
 }
 .top-btn{
     position: absolute;
-    left: 10px;
+    left: 1.5%;
     top: 50%;
     color: #000;
     padding: 10px 10px;
@@ -112,17 +113,17 @@ footer{
     transform: translate(0, -50%);
 }
 .social{
-    position: relative;
-    right: 10px;
+    position: absolute;
+    right: 1.5%;
+    top: 50%;
     box-sizing: border-box;
     right: 20px;
     color: black;
     text-decoration:none;
+    transform: translate(0, -50%);
 }
 .social-btn{
     float: right;
-    right: 10px;
-    top: 5px;
     margin: 15px;
     position: relative;
     text-decoration: none;

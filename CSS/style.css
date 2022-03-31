@@ -215,7 +215,7 @@ article{
 
 /* Consistent footer used throughout */
 footer{
-    position: fixed;
+    position:fixed;
     bottom: 0;
     height: 75px;
     width: 100%;
