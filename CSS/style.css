@@ -21,7 +21,7 @@ nav{
     padding-top: 15px;
     box-sizing: border-box;
     background-color: #DAA67D;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #15808F;
     z-index: 1;
 }
 .logo img{
@@ -221,7 +221,7 @@ footer{
     height: 75px;
     width: 100%;
     padding: 0;
-    border-top: 3px solid #000;
+    border-top: 3px solid #15808F;
     background-color: #DAA67D;
     box-sizing: border-box;
     clear: both;
