@@ -6,7 +6,6 @@ body{
     font-size: 15px;
     text-align: center;
     text-transform: uppercase;
-    height: 100%;
 }
 .border{
     border: 3px solid black;
@@ -59,6 +58,15 @@ nav ul li a:active{
     /* background-color:darkolivegreen; */
     color:chocolate;
 }
+
+h1{
+    z-index: 1;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
 /* Three equal columns */
 .row{
     margin-top: 30px;
@@ -90,8 +98,8 @@ nav ul li a:active{
 } */
 /* Consistent footer used throughout */
 footer{
-    position: fixed;
-    bottom: 0;
+    position: relative;
+    bottom: -75px;
     height: 75px;
     width: 100%;
     padding: 0;
@@ -124,7 +132,8 @@ footer{
 }
 .social-btn{
     float: right;
-    margin: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
     position: relative;
     text-decoration: none;
     color: black;
