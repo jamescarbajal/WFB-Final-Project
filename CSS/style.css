@@ -78,10 +78,10 @@ main{
 }
 .main-child{
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 50%;
     height: 300px;
-    width: 500px;
+    width: 700px;
     color: #D6BC89;
     font-size: 32px;
     position: absolute;
@@ -99,7 +99,7 @@ main{
     color: #fff;
     padding: 10px 30px;
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -219,8 +219,8 @@ article{
 }
 /* Consistent footer used throughout */
 footer{
-    position:relative;
-    bottom: -75px;
+    position:fixed;
+    bottom: 0;
     height: 75px;
     width: 100%;
     padding: 0;
@@ -253,7 +253,7 @@ footer{
     float: right;
     right: 10px;
     top: 5px;
-    margin: 15px
+    margin: 15px;
     text-decoration: none;
     color: black;
 }
