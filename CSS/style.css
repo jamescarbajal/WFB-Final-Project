@@ -9,7 +9,7 @@ body{
     font-size: 15px;
     text-align: center;
     text-transform: uppercase;
-    background-color: #000;
+    background-color:#fff;
 }
 nav{
     font-family:"DM Sans", sans-serif;
@@ -20,7 +20,7 @@ nav{
     width: 100%;
     padding-top: 15px;
     box-sizing: border-box;
-    background-color: #DAA67D;
+    background-color: #D6BC89;
     border-bottom: 3px solid #15808F;
     z-index: 1;
 }
@@ -42,7 +42,7 @@ nav ul li{
     padding: 10px 20px;
 }
 nav ul li a:link{
-    background-color:#DAA67D;
+    background-color:#D6BC89;
     color: #000;
     text-decoration: none;
 }
@@ -82,7 +82,7 @@ main{
     left: 50%;
     height: 300px;
     width: 500px;
-    color: #DAA67D;
+    color: #D6BC89;
     font-size: 32px;
     position: absolute;
     box-sizing: border-box;
@@ -104,11 +104,12 @@ main{
     transform: translate(-50%, -50%);
 }
 .mainbtn a:hover{
-    background-color: #DAA67D;
+    background-color: #D6BC89;
     color: #000;
 }
 .cover-layer{
-    position:absolute;
+    position: absolute;
+    top: 625px;
     height:100%;
     width: 100%;
     top: 625px;
@@ -134,7 +135,7 @@ main{
   }
   .image-container {
     width: 1500px;
-    background-color: #DAA67D;
+    background-color: #D6BC89;
     height: 300px;
     clear: both;
     position: relative;
@@ -181,7 +182,7 @@ aside{
     margin-right: 3.5%;
     border: 3px solid teal;
     box-sizing: border-box;
-    background-color: #DAA67D;
+    background-color: #D6BC89;
     font-size: 50px;
     padding-top: 120px;
     text-shadow: 2px 2px #888;
@@ -194,7 +195,7 @@ section{
     height: 325px;
     box-sizing: border-box;
     border: 3px solid teal;
-    background-color: #DAA67D;
+    background-color: #D6BC89;
     font-size: 40px;
     padding-top: 135px;
     text-shadow: 2px 2px #888;
@@ -207,7 +208,7 @@ article{
     height: 325px;
     box-sizing: border-box;
     border: 3px solid teal;
-    background-color: #DAA67D;
+    background-color: #D6BC89;
     font-size: 40px;
     padding-top: 135px;
     text-shadow: 2px 2px #888;
@@ -222,7 +223,7 @@ footer{
     width: 100%;
     padding: 0;
     border-top: 3px solid #15808F;
-    background-color: #DAA67D;
+    background-color: #D6BC89;
     box-sizing: border-box;
     clear: both;
 }
@@ -250,8 +251,7 @@ footer{
     float: right;
     right: 10px;
     top: 5px;
-    margin: 15px;
-    position: relative;
+    margin: 15px
     text-decoration: none;
     color: black;
 }
