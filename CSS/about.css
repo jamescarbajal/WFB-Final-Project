@@ -4,8 +4,6 @@
 }
 body{
     font-size: 15px;
-    text-align: center;
-    text-transform: uppercase;
 }
 .border{
     border: 3px solid black;
@@ -86,31 +84,9 @@ h1{
     padding: 0;
     box-sizing: border-box;
 }
-.fb-messenger{
-    color: #15808F;
-    font-size:x-large;
-    text-align: center;
-    float: left;
-    padding: 100px 30px;
-    margin: 20px 20px;
-    width: 30%;
-    height: 300px;
-    margin: 20px;
-    border: 2px solid #000;
-    transform: translate(66%, 10%);
-    box-sizing: border-box;
+#fb-messenger{
+    margin-bottom: 75px;
 }
-/* .vid-div{
-    position: absolute;
-    left: 5%;
-    top: 50%;
-    width: 37%;
-    height: 30%;
-    margin: 40px;
-    padding: 0;
-    box-sizing: border-box;
-} */
-
 /* Consistent footer used throughout */
 footer{
     position:fixed;
