@@ -117,6 +117,7 @@ main{
 }
 
 .slider {
+    display: none;
     border: 1.5px solid #000;
     float: right;
     position: relative;
@@ -131,7 +132,7 @@ main{
     text-align: center;
     overflow: hidden;
     z-index: 0;
-  }
+}
   .image-container {
     width: 1500px;
     background-color: #D6BC89;
@@ -142,44 +143,50 @@ main{
     -moz-transition: left 2s;
     -o-transition: left 2s;
     transition: left 2s;
-  }
+}
   .slide {
     float: left;
     margin: 0px;
     padding: 0px;
     position: relative;
-  }
+}
   #slide-1:target ~ .image-container {
     left: 0px;
-  }
+}
   #slide-2:target ~ .image-container {
     left: -500px;
-  }
+}
   #slide-3:target ~ .image-container {
     left: -1000px;
-  }
+}
   .buttons {
     position: relative;
     top: -20px;
-  }
+}
   .buttons a {
     display: inline-block;
     height: 15px;
     width: 15px;
     border-radius: 50px;
     background-color: teal;
-  }
-
+}
+.card-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
 aside{
-    float: right;
-    clear: right;
+    /* clear: both; */
     text-align: center;
-    position: relative;
+    display:flex;
+    align-self: flex-start;
+    flex-flow: row wrap;
+    justify-content: center;
+    flex: grow 2;
     top: 60px;
     height: 300px;
-    width: 40%;
+    width: 100%;
     margin: 30px;
-    margin-right: 3.5%;
     border: 3px solid teal;
     box-sizing: border-box;
     background-color: #D6BC89;
@@ -189,9 +196,11 @@ aside{
     box-shadow: 5px 8px #000;
 }
 section{
-    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
     margin: 30px;
-    margin-left: 3.5%;
     height: 325px;
     text-align: center;
     box-sizing: border-box;
@@ -203,9 +212,11 @@ section{
     box-shadow: 5px 8px #000;
 }
 article{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
     width: 50%;
     margin: 30px;
-    margin-left: 3.5%;
     height: 325px;
     text-align: center;
     box-sizing: border-box;
